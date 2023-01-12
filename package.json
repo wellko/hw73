@@ -2,10 +2,12 @@
   "name": "hw-73",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index1.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start1": "node index1.js",
+    "dev1": "nodemon index1.js",
+    "start2": "node index2.js",
+    "dev2": "nodemon index2.js"
   },
   "keywords": [],
   "author": "",
