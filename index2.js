@@ -4,7 +4,7 @@ const Vigenere = require('caesar-salad').Vigenere;
 
 const app = express();
 
-const port = 8001;
+const port = 8000;
 
 const password = 'well';
 
