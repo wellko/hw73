@@ -1,12 +1,10 @@
 const express = require('express');
-
 const app = express();
-
 const port = 8000;
 
 app.get('/', (req, res) => {
 	res.send('Welcome to Echo go to /*anytext* for get response')
-})
+});
 
 app.get('/:text', (req, res) => {
 	res.set('Content-Type', 'text/plain');
